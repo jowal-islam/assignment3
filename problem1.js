@@ -26,15 +26,25 @@
 //    }
 // }
 
-// problem 04 (Delete / Store)
+// // problem 04 (Delete / Store)
 
-var fileName = "pdfData.jpg";
+// var fileName = "pdfData.jpg";
 
-if(fileName.includes("pdf")||
-   fileName.includes("docx")||
-   fileName.includes("#")
-){
-    console.log('Store');
-}else{
-    console.log('Delete')
-}
+// if(fileName.includes("pdf")||
+//    fileName.includes("docx")||
+//    fileName.includes("#")
+// ){
+//     console.log('Store');
+// }else{
+//     console.log('Delete')
+// }
+
+// // problem-05 
+// // format = name + roll + . + depertment + @ph.ac.bd
+// var student = {
+//     name: "jowel",
+//     roll: 20,
+//     depertment : "cse"
+// }
+// var email = student.name + student.roll + "." + student.depertment + "@ph.ac.bd";
+// console.log(email);
