@@ -48,3 +48,15 @@
 // }
 // var email = student.name + student.roll + "." + student.depertment + "@ph.ac.bd";
 // console.log(email);
+
+
+// problem - 06 : Current selary
+var experience = 40;
+var startigSalary = 30000;
+var increaseRate = 0.05;
+var finalSalary = 0;
+for (let i = 1; i <= experience; i++){
+    startigSalary = startigSalary * (1 + increaseRate);
+    finalSalary = startigSalary;
+}
+console.log(finalSalary.toFixed(2));
